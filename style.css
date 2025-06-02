@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.grid-artistes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+
+.artiste {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.artiste img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.playlist {
+  list-style: none;
+  padding: 1em;
+}
+
+.track {
+  cursor: pointer;
+  padding: 10px;
+  background: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.track:hover {
+  background-color: #ddd;
+}
